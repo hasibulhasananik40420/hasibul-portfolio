@@ -1,0 +1,57 @@
+
+import Navbar from "../Shared/Navbar/Navbar";
+import Container from "../Shared/Container/Container";
+import Image from "next/image";
+import anik from "@/assets/Anik webiste.png";
+import Icons from "./Icons";
+import { HiArrowSmDown } from "react-icons/hi";
+
+const Banner = () => {
+  return (
+    <div className="bg-[#0B1224] bg-[url('https://learnwithsumit.com/_next/static/media/pattern-dark.20747baf.svg')]  min-h-[100vh] h-screen">
+      <Navbar />
+
+      <Container>
+        <div className="flex flex-col justify-center items-center max-w-[1100px] mx-auto min-h-[100vh]">
+
+          
+
+      <div className="mt-36 lg:mt-0 2xl:mt-0   2xl:size-64 lg:size-44 md:size-72 size-44 rounded-full p-1 ring-animation">
+      <div className="w-full h-full rounded-full ring-border"></div>
+      <Image
+        className="w-full h-full rounded-full "
+        src={anik}
+        alt="anik image"
+        placeholder="blur"
+      />
+    </div>
+
+
+
+          <h1 className="md:text-[60px] lg:text-[60px] 2xl:text-[80px] text-[30px] text-white font-Exo mt-8 2xl:mt-14 font-bold tracking-[0.9px] leading-10">
+            Hi, I am <span className="text-[#72E2AE]">Hasibul Hasan</span>
+          </h1>
+
+          <p className="text-textDark mt-10 2xl:mt-14 text-[20px] text-center font-Montserrat font-medium leading-6">
+            I am a full stack web developer. I can provide clean code and pixel
+            perfect design. I also make website more & more interactive with web
+            animations.
+          </p>
+
+          <div className="mt-10 2xl:mt-14">
+            <Icons />
+          </div>
+
+          <div className="py-10 2xl:py-14 flex items-center gap-1 ">
+            <HiArrowSmDown className="size-5 text-textDark animate-bounce cursor-pointer" />
+            <span className="text-textDark text-[14px] font-Montserrat font-semibold leading-6 tracking-[0.09px] cursor-pointer">
+              SCROLL DOWN
+            </span>
+          </div>
+        </div>
+      </Container>
+    </div>
+  );
+};
+
+export default Banner;

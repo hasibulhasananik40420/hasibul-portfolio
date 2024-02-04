@@ -5,17 +5,17 @@ import ReviewSlider from '../ReviewSlider/ReviewSlider'
 import Image from 'next/image'
 const ClientReviews = () => {
   return (
-    <div className='bg-[#23263D] py-24 shadow-md'>
+    <div className='bg-[#0F172A] py-24 shadow-md'>
         <Container>
          {/* <Image className='size-16' src={effect} alt=''/> */}
-        <p className="text-[18px] text-[#F2B95F] uppercase font-Montserrat font-normal leading-8">
+        <p className="ttext-[16px] text-textDark font-Montserrat font-medium leading-8">
         TESTIMONIALS
           </p>
-          <h1 className="text-[46px] text-white mt-3 font-Exo font-bold leading-[56px] tracking-[0.5px]">
+          <h1 className="md:text-[46px] text-[30px] text-white mt-3 font-Exo font-bold md:leading-[56px] leading-10 tracking-[0.5px]">
           Happy Clients Says
           </h1>
 
-            <div className='mt-8'>
+            <div className='mt-10'>
                 <ReviewSlider/>
             </div>
         </Container>

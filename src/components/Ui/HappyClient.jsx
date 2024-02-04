@@ -51,15 +51,15 @@ const HappyClient = () => {
 
 
   return (
-    <div className='bg-[#1F2235] py-24'>
+    <div className='bg-[#0F172A] py-24'>
         <Container>
        
            <div className='lg:flex  gap-20'>
                <div className='lg:w-[280px] w-full'>
-               <p className="text-[18px] text-[#F2B95F] uppercase font-Montserrat font-normal leading-8">
+               <p className="text-[16px] text-textDark font-Montserrat font-medium leading-8">
             my honorable
           </p>
-          <h1 className="text-[46px] text-white mt-3 font-Exo font-bold leading-[56px] tracking-[0.5px]">
+          <h1 className="md:text-[46px] text-[30px] text-white mt-3 font-Exo font-bold md:leading-[56px] leading-10 tracking-[0.5px]">
             Clients
           </h1>
 
@@ -79,7 +79,7 @@ const HappyClient = () => {
                     <BsArrowRight className='size-6 mt-2 group-hover:translate-x-2 duration-300'/>
                  </div>
 
-         <div onClick={handleAustralia} className={`${australia ? 'border-l-textGreen text-textGreen bg-[#172a4b]' :'border-l-hoverColor text-textDark'} flex gap-3 items-center border-l-2 bg-transparent hover:bg-[#112240] py-2 cursor-pointer duration-300 px-6 group`}>
+                <div onClick={handleAustralia} className={`${australia ? 'border-l-textGreen text-textGreen bg-[#172a4b]' :'border-l-hoverColor text-textDark'} flex gap-3 items-center border-l-2 bg-transparent hover:bg-[#112240] py-2 cursor-pointer duration-300 px-6 group`}>
                     <span className="text-[20px] mt-2 font-Exo font-medium leading-[50px] tracking-[0.9px]">Australia</span>
                     <BsArrowRight className='size-6 mt-2 group-hover:translate-x-2 duration-300'/>
                  </div>

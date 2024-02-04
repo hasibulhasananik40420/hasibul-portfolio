@@ -1,32 +1,215 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo:wght@400;500;600;700;800&family=Montserrat:wght@400;500;600;700;800&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@400;500;600;700;800&family=Montserrat:wght@400;500;600;700;800&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
-
-@media screen and (min-width: 1024px){
-    .slick-slide div{
-        margin: 0 13px;
-    }
+@media screen and (min-width: 1024px) {
+  .slick-slide div {
+    margin: 0 13px;
+  }
 }
 
-@media screen and (min-width: 600px){
-    .slick-slide div{
-        margin: 0 13px;
-    }
+@media screen and (min-width: 600px) {
+  .slick-slide div {
+    margin: 0 13px;
+  }
 }
 
-@media screen and (min-width: 480px){
-    .slick-slide div{
-        margin:0 6px;
-    }
+@media screen and (min-width: 480px) {
+  .slick-slide div {
+    margin: 0 6px;
+  }
 }
 
-@media screen and (min-width: 350px){
-    .slick-slide div{
-        margin:0 6px;
-    }
+@media screen and (min-width: 350px) {
+  .slick-slide div {
+    margin: 0 6px;
+  }
 }
+
+
+
+
+
+/* Add this CSS to your stylesheet or component styling */
+@keyframes rotate {
+  0%, 100% {
+    transform: rotate(0deg);
+    border-color: #6b1de7cb; /* Set initial and final ring color */
+  }
+  25% {
+    transform: rotate(90deg);
+    border-color: #6b6df32c; /* Set second ring color */
+  }
+  50% {
+    transform: rotate(180deg);
+    border-color: #8b22e0; /* Set third ring color */
+  }
+  75% {
+    transform: rotate(270deg);
+    border-color: #b71ddd; /* Set fourth ring color */
+  }
+}
+
+.ring-animation {
+  position: relative;
+}
+
+.ring-border {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 4px solid transparent; /* Set initial border width */
+  border-radius: 50%;
+  animation: rotate 5s linear infinite; /* Adjust duration as needed */
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* For all social containers */
+.socialContainer {
+  width: 45px;
+  height: 45px;
+  border: 0.5px solid #606372;
+  border-radius: 7px;
+  background-color: #0f172a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition-duration: 0.3s;
+}
+
+/* Instagram */
+.containerOne:hover {
+  background-color: #72e2ae;
+}
+
+/* Twitter */
+.containerTwo:hover {
+  background-color: #72e2ae;
+}
+
+/* LinkedIn */
+.containerThree:hover {
+  background-color: #72e2ae;
+}
+
+/* Whatsapp */
+.containerFour:hover {
+  background-color: #72e2ae;
+}
+
+.socialContainer:active {
+  transform: scale(0.9);
+  transition-duration: 0.3s;
+}
+
+.socialSvg {
+  /* width: 100px; */
+  fill: rgb(255, 255, 255);
+}
+
+.socialContainer:hover .socialSvg {
+  animation: slide-in-top 0.3s both;
+}
+
+@keyframes slide-in-top {
+  0% {
+    transform: translateX(-50px);
+    animation-duration: 500ms;
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    animation-duration: 500ms;
+    opacity: 1;
+  }
+}
+
+
+
+
+
+
+
+.bg-color {
+  background: rgba(15, 23, 42, 0.4);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border-radius: 50%;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.nav-bg {
+  background: rgba(25, 35, 58, 0.6);
+  box-shadow: 0 5px 20px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* project all css */
+.card-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.hover-content {
+  position: absolute;
+  top: 0;
+  left: -100%; /* Initially position off-screen to the left */
+  width: 100%;
+  /* height: 269px; */
+  /* height: 100%; */
+  /* background: #0849c4; */
+  transition: left 0.9s ease; /* Add a transition effect for smooth movement */
+}
+
+.bg-anik:hover .hover-content {
+  left: 0; 
+  
+}
+
+
+.card-bgg {
+  background: rgba(25, 35, 58, 0.6);
+  /* box-shadow: 0 5px 20px 0 rgba(31, 38, 135, 0.37); */
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  /* border-bottom: 1px solid rgba(255, 255, 255, 0.18); */
+}
+
+
