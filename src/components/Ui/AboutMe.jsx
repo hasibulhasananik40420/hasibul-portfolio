@@ -8,11 +8,9 @@ const AboutMe = () => {
     <div className="bg-[#0F172A] pt-24" id="aboutSection">
       <Container>
         <div className="lg:flex gap-24 items-center ">
-          <div className="lg:w-[1200px] w-full p-1 h-[450px] md:h-[700px] lg:h-[450px] border-[4px] border-[#2C304A] rounded-sm">
-            <Image className="w-full h-full" src={anik} alt="anik" placeholder="blur"/>
-          </div>
+         
 
-          <div className="mt-10 md:mt-10 lg:mt-0" >
+          <div className="" >
             <p className="text-[16px] text-textDark font-Montserrat font-medium leading-8">
               ABOUT ME
             </p>
@@ -143,6 +141,11 @@ const AboutMe = () => {
               </div>
             </div>
           </div>
+
+          <div className="lg:w-[1200px] w-full p-1 h-[450px] md:h-[700px] lg:h-[450px] border-[4px] border-[#2C304A] rounded-sm mt-14 md:mt-16 lg:mt-0">
+            <Image className="w-full h-full" src={anik} alt="anik" placeholder="blur"/>
+          </div>
+
         </div>
       </Container>
     </div>

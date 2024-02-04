@@ -8,7 +8,7 @@ import { HiArrowSmDown } from "react-icons/hi";
 
 const Banner = () => {
   return (
-    <div className="bg-[#0B1224] bg-[url('https://learnwithsumit.com/_next/static/media/pattern-dark.20747baf.svg')]  min-h-[100vh] h-screen">
+    <div className="bg-[#0B1224] bg-[url('https://learnwithsumit.com/_next/static/media/pattern-dark.20747baf.svg')]  min-h-[100vh] h-screen" id="homeSection">
       <Navbar />
 
       <Container>
@@ -42,12 +42,16 @@ const Banner = () => {
             <Icons />
           </div>
 
+
+          
           <div className="py-10 2xl:py-14 flex items-center gap-1 ">
             <HiArrowSmDown className="size-5 text-textDark animate-bounce cursor-pointer" />
             <span className="text-textDark text-[14px] font-Montserrat font-semibold leading-6 tracking-[0.09px] cursor-pointer">
               SCROLL DOWN
             </span>
           </div>
+        
+
         </div>
       </Container>
     </div>

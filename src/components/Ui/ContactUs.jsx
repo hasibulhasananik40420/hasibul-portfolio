@@ -7,7 +7,18 @@ const ContactUs = () => {
   return (
     <div className='bg-[#0F172A] pb-24' id='contactSection'>
         <Container>
-           <div className='max-w-[1100px] mx-auto '>
+           <div>
+           <p className="text-[16px] text-textDark font-Montserrat font-medium leading-8 uppercase">
+           Contact
+          </p>
+          <h1 className="md:text-[46px] text-[30px] text-white mt-3 font-Exo font-bold md:leading-[56px] leading-10 tracking-[0.5px]">
+          Contact With Me
+          </h1>
+           </div>
+           <div className='max-w-[1100px] mx-auto mt-10'>
+
+         
+
              <div className='bg-[#0F172A] lg:h-[200px] h-full rounded-t-md p-10 flex gap-20 border border-[#102131]'> 
 
                <div className='w-[300px] h-[320px] border rounded lg:block hidden'>
