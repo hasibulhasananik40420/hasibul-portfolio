@@ -18,7 +18,7 @@ const ServicesCard = () => {
           <FaCode className="size-6 text-white group-hover:text-[#72E2AE]" />
         </div>
         <div className="xl:w-[400px] lg:w-[380px] w-full h-[270px] bg-[#162033] flex flex-col justify-center items-center rounded-sm border-[0.5px] border-[#2C304A] group-hover:border-[#72E2AE] duration-300 p-4">
-          <h1 className="text-[30px] text-white font-Exo font-bold leading-6 mt-6">
+          <h1 className="md:text-[30px] text-[24px] text-white font-Exo font-bold leading-6 mt-6">
               Web Development
           </h1>
           <p className="text-[16px] text-center text-textDark pt-7 font-Montserrat font-normal leading-6">
@@ -33,7 +33,7 @@ const ServicesCard = () => {
           <IoLogoWebComponent className="size-6 text-white group-hover:text-[#72E2AE]" />
         </div>
         <div className="xl:w-[400px] lg:w-[380px] w-full h-[270px] bg-[#162033] flex flex-col justify-center items-center rounded-sm border-[0.5px] border-[#2C304A] group-hover:border-[#72E2AE] duration-300 p-4">
-          <h1 className="text-[30px] text-white font-Exo font-bold leading-6 mt-6">
+          <h1 className="md:text-[30px] text-[24px] text-white font-Exo font-bold leading-6 mt-6">
           Web Application
           </h1>
           <p className="text-[16px] text-center text-textDark pt-7 font-Montserrat font-normal leading-6">
@@ -48,7 +48,7 @@ const ServicesCard = () => {
           <TbBoxMultiple  className="size-6 text-white group-hover:text-[#72E2AE]" />
         </div>
         <div className="xl:w-[400px] lg:w-[380px] w-full h-[270px] bg-[#162033] flex flex-col justify-center items-center rounded-sm border-[0.5px] border-[#2C304A] group-hover:border-[#72E2AE] duration-300 p-4">
-          <h1 className="text-[30px] text-white font-Exo font-bold leading-6 mt-6">
+          <h1 className="md:text-[30px] text-[24px] text-white font-Exo font-bold leading-6 mt-6">
           Responsive Design
           </h1>
           <p className="text-[16px] text-center text-textDark pt-7 font-Montserrat font-normal leading-6">
@@ -65,7 +65,7 @@ const ServicesCard = () => {
           <GrServerCluster  className="size-6 text-white group-hover:text-[#72E2AE]" />
         </div>
         <div className="xl:w-[400px] lg:w-[380px] w-full h-[270px] bg-[#162033] flex flex-col justify-center items-center rounded-sm border-[0.5px] border-[#2C304A] group-hover:border-[#72E2AE] duration-300 p-4">
-          <h1 className="text-[30px] text-white font-Exo font-bold leading-6 mt-6">
+          <h1 className="md:text-[30px] text-[24px] text-white font-Exo font-bold leading-6 mt-6">
           Backend Development
           </h1>
           <p className="text-[16px] text-center text-textDark pt-7 font-Montserrat font-normal leading-6">
@@ -80,7 +80,7 @@ const ServicesCard = () => {
           <SiXdadevelopers  className="size-6 text-white group-hover:text-[#72E2AE]" />
         </div>
         <div className="xl:w-[400px] lg:w-[380px] w-full h-[270px] bg-[#162033] flex flex-col justify-center items-center rounded-sm border-[0.5px] border-[#2C304A] group-hover:border-[#72E2AE] duration-300 p-4">
-          <h1 className="text-[30px] text-white font-Exo font-bold leading-6 mt-6">
+          <h1 className="md:text-[30px] text-[24px] text-white font-Exo font-bold leading-6 mt-6">
           Web Design
           </h1>
           <p className="text-[16px] text-center text-textDark pt-7 font-Montserrat font-normal leading-6">
@@ -96,7 +96,7 @@ const ServicesCard = () => {
           <SiW3C  className="size-6 text-white group-hover:text-[#72E2AE]" />
         </div>
         <div className="xl:w-[400px] lg:w-[380px] w-full h-[270px] bg-[#162033] flex flex-col justify-center items-center rounded-sm border-[0.5px] border-[#2C304A] group-hover:border-[#72E2AE] duration-300 p-4">
-          <h1 className="text-[30px] text-white font-Exo font-bold leading-6 mt-6">
+          <h1 className="md:text-[30px] text-[24px] text-white font-Exo font-bold leading-6 mt-6">
           W3C Validation Code
           </h1>
           <p className="text-[16px] text-center text-textDark pt-7 font-Montserrat font-normal leading-6">

@@ -31,7 +31,7 @@ const MobileMenu = () => {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, []);   // Re-run effect only when isFixed changes
+  }, [isFixed]);   // Re-run effect only when isFixed changes
 
         const handleMenuClick = () => {
     setIsMenuVisible(!isMenuVisible);

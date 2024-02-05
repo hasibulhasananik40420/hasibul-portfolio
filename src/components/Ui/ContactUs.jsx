@@ -11,7 +11,7 @@ const ContactUs = () => {
            <p className="text-[16px] text-textDark font-Montserrat font-medium leading-8 uppercase">
            Contact
           </p>
-          <h1 className="md:text-[46px] text-[30px] text-white mt-3 font-Exo font-bold md:leading-[56px] leading-10 tracking-[0.5px]">
+          <h1 className="md:text-[46px] text-[24px] text-white mt-3 font-Exo font-bold md:leading-[56px] leading-10 tracking-[0.5px]">
           Contact With Me
           </h1>
            </div>
@@ -19,14 +19,14 @@ const ContactUs = () => {
 
          
 
-             <div className='bg-[#0F172A] lg:h-[200px] h-full rounded-t-md p-10 flex gap-20 border border-[#102131]'> 
+             <div className='bg-[#0F172A] lg:h-[200px] h-full rounded-t-md md:p-10 p-6 flex gap-20 border border-[#102131]'> 
 
                <div className='w-[300px] h-[320px] border rounded lg:block hidden'>
                  <Image className='w-full h-full ' src={anik} alt='anik' placeholder='blur'/>
                  </div>
 
               <div>
-              <h1 className="md:text-[46px] text-[30px] text-white font-Exo font-bold md:leading-[56px] leading-10 tracking-[0.5px]">Let’s Discuss Your Project</h1>
+              <h1 className="md:text-[46px] text-[24px] text-white font-Exo font-bold md:leading-[56px] leading-10 tracking-[0.5px]">Let’s Discuss Your Project</h1>
                 <p className="text-[16px] text-textDark font-Montserrat font-medium leading-8">Always available for freelancing if the right project comes along, Feel free to contact me.</p>
               </div>
 

@@ -14,7 +14,7 @@ const AboutMe = () => {
             <p className="text-[16px] text-textDark font-Montserrat font-medium leading-8">
               ABOUT ME
             </p>
-            <h1 className="md:text-[46px] text-[30px] text-white mt-3 font-Exo font-bold md:leading-[56px] leading-10 tracking-[0.5px]">
+            <h1 className="md:text-[46px] text-[24px] text-white mt-3 font-Exo font-bold md:leading-[56px] leading-10 tracking-[0.5px]">
               Why hire me for your next project?
             </h1>
 

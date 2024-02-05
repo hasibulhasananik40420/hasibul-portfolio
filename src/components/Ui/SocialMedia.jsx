@@ -15,7 +15,7 @@ const SocialMedia = () => {
           <p className="text-[16px] text-textDark font-Montserrat font-medium leading-8">
             SOCIAL MEDIA
           </p>
-          <h1 className="md:text-[46px] text-[30px] text-white mt-4 font-Exo font-bold md:leading-[56px] leading-10 tracking-[0.5px]">
+          <h1 className="md:text-[46px] text-[24px] text-white mt-4 font-Exo font-bold md:leading-[56px] leading-10 tracking-[0.5px]">
             Let’s Be Friends
           </h1>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
