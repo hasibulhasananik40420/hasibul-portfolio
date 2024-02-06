@@ -13,7 +13,7 @@ const Resume = () => {
           My Resume
         </h1>
 
-        <div className="flex gap-10 mt-10">
+        <div className="lg:flex gap-10 mt-10">
           <div className="lg:w-[600px] w-full bg-[#162033] border-[0.5px] border-[#2C304A] rounded-sm py-8 px-6">
             <h1 className=" text-[24px] text-white font-Montserrat font-semibold ">
               Working Experience

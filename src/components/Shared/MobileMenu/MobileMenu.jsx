@@ -110,6 +110,17 @@ const MobileMenu = () => {
             >
               Projects
             </Link>
+              <Link
+              to="resumeSection"
+              spy={true}
+              smooth={true}
+              offset={-70} // Adjust the offset according to your layout
+              duration={1000}
+              onClick={handleMenuClick}
+              className="bg-[#0F172A] text-[20px] text-white font-Exo font-medium py-2 px-4 rounded cursor-pointer"
+            >
+              Resume
+            </Link>
 
 
              <Link
