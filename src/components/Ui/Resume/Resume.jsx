@@ -73,7 +73,7 @@ const Resume = () => {
 
           </div>
 
-         <div className="lg:w-[600px] w-full bg-[#162033] border-[0.5px] border-[#2C304A] rounded-sm py-8 px-6">
+         <div className="lg:w-[600px] w-full bg-[#162033] border-[0.5px] border-[#2C304A] rounded-sm py-8 px-6 mt-10 md:mt-10 lg:mt-0">
             <h1 className=" text-[24px] text-white font-Montserrat font-semibold ">
             Educational Qualifications
             </h1>
