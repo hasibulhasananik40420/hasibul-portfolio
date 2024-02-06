@@ -4,14 +4,15 @@ import { FaCode } from "react-icons/fa";
 import { TbBoxMultiple } from "react-icons/tb";
 import { GrServerCluster } from "react-icons/gr";
 import { SiW3C } from "react-icons/si";
+import FadeIn, { FadeInStagger } from "../Animation/FadeIn";
 
 
 
 const ServicesCard = () => {
   return (
+    <FadeInStagger>
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-x-6 gap-y-16">
-    
-    
+    <FadeIn>
       <div className="relative group hover:cursor-pointer">
 
         <div className="size-16 bg-[#72E2AE] absolute top-[-32px] left-10 rounded-full flex justify-center items-center group-hover:bg-transparent group-hover:ring-[2px] group-hover:ring-[#72E2AE] group-hover:translate-x-10 duration-300 ease-out">
@@ -26,7 +27,9 @@ const ServicesCard = () => {
           </p>
         </div>
       </div>
+      </FadeIn>
 
+      <FadeIn>
          <div className="relative group hover:cursor-pointer">
 
         <div className="size-16 bg-[#72E2AE] absolute top-[-32px] left-10 rounded-full flex justify-center items-center group-hover:bg-transparent group-hover:ring-[2px] group-hover:ring-[#72E2AE] group-hover:translate-x-10 duration-300 ease-out">
@@ -41,7 +44,9 @@ const ServicesCard = () => {
           </p>
         </div>
       </div>
+      </FadeIn>
 
+      <FadeIn>
        <div className="relative group hover:cursor-pointer">
 
         <div className="size-16 bg-[#72E2AE] absolute top-[-32px] left-10 rounded-full flex justify-center items-center group-hover:bg-transparent group-hover:ring-[2px] group-hover:ring-[#72E2AE] group-hover:translate-x-10 duration-300 ease-out">
@@ -56,9 +61,10 @@ const ServicesCard = () => {
           </p>
         </div>
       </div>
+      </FadeIn>
 
 
-       
+      <FadeIn>
      <div className="relative group hover:cursor-pointer">
 
         <div className="size-16 bg-[#72E2AE] absolute top-[-32px] left-10 rounded-full flex justify-center items-center group-hover:bg-transparent group-hover:ring-[2px] group-hover:ring-[#72E2AE] group-hover:translate-x-10 duration-300 ease-out">
@@ -73,7 +79,9 @@ const ServicesCard = () => {
           </p>
         </div>
       </div>
-
+      </FadeIn>
+        
+      <FadeIn>
         <div className="relative group hover:cursor-pointer">
 
         <div className="size-16 bg-[#72E2AE] absolute top-[-32px] left-10 rounded-full flex justify-center items-center group-hover:bg-transparent group-hover:ring-[2px] group-hover:ring-[#72E2AE] group-hover:translate-x-10 duration-300 ease-out">
@@ -88,8 +96,9 @@ const ServicesCard = () => {
           </p>
         </div>
       </div>
+      </FadeIn>
 
-
+      <FadeIn>
         <div className="relative group hover:cursor-pointer">
 
         <div className="size-16 bg-[#72E2AE] absolute top-[-32px] left-10 rounded-full flex justify-center items-center group-hover:bg-transparent group-hover:ring-[2px] group-hover:ring-[#72E2AE] group-hover:translate-x-10 duration-300 ease-out">
@@ -104,29 +113,13 @@ const ServicesCard = () => {
           </p>
         </div>
       </div>
+      </FadeIn>
 
-
-       
-
-
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      
 
     </div>
+    
+    </FadeInStagger>
   );
 };
 

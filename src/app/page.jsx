@@ -4,6 +4,7 @@ import ClientReviews from "@/components/Ui/ClientReviews"
 import ContactUs from "@/components/Ui/ContactUs"
 import HappyClient from "@/components/Ui/HappyClient"
 import MyProjects from "@/components/Ui/MyProjects"
+import Resume from "@/components/Ui/Resume/Resume"
 import Services from "@/components/Ui/Services"
 import SocialMedia from "@/components/Ui/SocialMedia"
 
@@ -15,9 +16,10 @@ const HomePage = () => {
       <AboutMe/>
       <Services/>
       <MyProjects/>
+      <Resume/>
       <ClientReviews/>
       <HappyClient/>
-      <SocialMedia/>
+      {/* <SocialMedia/> */}
       <ContactUs/>
     </div>
   )

@@ -51,7 +51,7 @@ const HappyClient = () => {
 
 
   return (
-    <div className='bg-[#0F172A] py-24'>
+    <div className='bg-[#0F172A] pb-24'>
         <Container>
        
            <div className='lg:flex  gap-20'>

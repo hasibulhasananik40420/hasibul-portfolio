@@ -8,13 +8,16 @@ import project6 from '@/assets/project6.jpg'
 
 import { CiImageOn } from "react-icons/ci";
 import { BsBoxArrowInUpRight } from 'react-icons/bs';
+import FadeIn, { FadeInStagger } from '../Animation/FadeIn'
 
 const MyProjectsCard = () => {
   return (
+
+    <FadeInStagger>
     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
         
       
-
+    <FadeIn>
      <div className='card-container'>
       <div className='bg-[#162033] bg-anik lg:w-[400px] w-full h-[400px] border-[0.5px] border-[#2C304A] rounded-sm relative'>
         <div className='lg:w-[400px] w-full h-[300px] p-4'>
@@ -35,8 +38,9 @@ const MyProjectsCard = () => {
         </div>
       </div>
     </div>
+    </FadeIn>
 
-
+    <FadeIn>
     <div className='card-container'>
       <div className='bg-[#162033] bg-anik lg:w-[400px] w-full h-[400px] border-[0.5px] border-[#2C304A] rounded-sm relative'>
         <div className='lg:w-[400px] w-full h-[300px] p-4'>
@@ -57,9 +61,10 @@ const MyProjectsCard = () => {
         </div>
       </div>
     </div>
+    </FadeIn>
 
-
- <div className='card-container'>
+    <FadeIn>
+     <div className='card-container'>
       <div className='bg-[#162033] bg-anik lg:w-[400px] w-full h-[400px] border-[0.5px] border-[#2C304A] rounded-sm relative'>
         <div className='lg:w-[400px] w-full h-[300px] p-4'>
         <Image className='w-full h-full' src={project3} alt='project image' placeholder='blur'/>
@@ -79,9 +84,10 @@ const MyProjectsCard = () => {
         </div>
       </div>
     </div>
+    </FadeIn>
 
-
- <div className='card-container'>
+    <FadeIn>
+     <div className='card-container'>
       <div className='bg-[#162033] bg-anik lg:w-[400px] w-full h-[400px] border-[0.5px] border-[#2C304A] rounded-sm relative'>
         <div className='lg:w-[400px] w-full h-[300px] p-4'>
         <Image className='w-full h-full' src={project4} alt='project image' placeholder='blur'/>
@@ -101,9 +107,10 @@ const MyProjectsCard = () => {
         </div>
       </div>
     </div>
+    </FadeIn>
 
-
-<div className='card-container'>
+    <FadeIn>
+   <div className='card-container'>
       <div className='bg-[#162033] bg-anik lg:w-[400px] w-full h-[400px] border-[0.5px] border-[#2C304A] rounded-sm relative'>
         <div className='lg:w-[400px] w-full h-[300px] p-4'>
         <Image className='w-full h-full' src={project5} alt='project image' placeholder='blur'/>
@@ -123,8 +130,9 @@ const MyProjectsCard = () => {
         </div>
       </div>
     </div>
+    </FadeIn>
 
-
+    <FadeIn>
         <div className='card-container'>
       <div className='bg-[#162033] bg-anik lg:w-[400px] w-full h-[400px] border-[0.5px] border-[#2C304A] rounded-sm relative'>
         <div className='lg:w-[400px] w-full h-[300px] p-4'>
@@ -145,14 +153,14 @@ const MyProjectsCard = () => {
         </div>
       </div>
     </div>
-
-
-
-
+    </FadeIn>
 
 
 
     </div>
+
+    
+    </FadeInStagger>
   )
 }
 

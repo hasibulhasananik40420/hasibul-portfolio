@@ -5,7 +5,7 @@ import ReviewSlider from '../ReviewSlider/ReviewSlider'
 import Image from 'next/image'
 const ClientReviews = () => {
   return (
-    <div className='bg-[#0F172A] py-24 shadow-md'>
+    <div className='bg-[#0F172A] py-24 '>
         <Container>
          {/* <Image className='size-16' src={effect} alt=''/> */}
         <p className="ttext-[16px] text-textDark font-Montserrat font-medium leading-8">

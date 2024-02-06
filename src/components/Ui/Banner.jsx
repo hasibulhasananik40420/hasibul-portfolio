@@ -4,7 +4,7 @@ import Container from "../Shared/Container/Container";
 import Image from "next/image";
 import anik from "@/assets/Anik webiste.png";
 import Icons from "./Icons";
-import { HiArrowSmDown } from "react-icons/hi";
+import ScrollDown from "../ScrollDown/ScrollDown";
 
 const Banner = () => {
   return (
@@ -44,12 +44,7 @@ const Banner = () => {
 
 
           
-          <div className="py-10 2xl:py-14 flex items-center gap-1 ">
-            <HiArrowSmDown className="size-5 text-textDark animate-bounce cursor-pointer" />
-            <span className="text-textDark text-[14px] font-Montserrat font-semibold leading-6 tracking-[0.09px] cursor-pointer">
-              SCROLL DOWN
-            </span>
-          </div>
+          <ScrollDown/>
         
 
         </div>
