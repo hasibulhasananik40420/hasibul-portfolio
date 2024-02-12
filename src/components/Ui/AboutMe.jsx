@@ -3,10 +3,13 @@ import Container from "../Shared/Container/Container";
 import { AiOutlineThunderbolt } from "react-icons/ai";
 import Image from "next/image";
 import anik from '@/assets/Anik webiste.png'
+import FadeIn from "../Animation/FadeIn";
 const AboutMe = () => {
   return (
+
     <div className="bg-[#0F172A] pt-24" id="aboutSection">
       <Container>
+      <FadeIn>
         <div className="lg:flex gap-24 items-center ">
          
 
@@ -147,6 +150,7 @@ const AboutMe = () => {
           </div>
 
         </div>
+        </FadeIn>
       </Container>
     </div>
   );

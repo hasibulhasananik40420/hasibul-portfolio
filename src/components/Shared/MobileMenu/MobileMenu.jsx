@@ -135,8 +135,9 @@ const MobileMenu = () => {
               Contact
             </Link>
 
-
+             <a href="https://docs.google.com/document/d/1tUKL4lyBqdnra6BzwD2LYphEn8_P5cGWA_pPU46aLEA/edit?usp=sharing" target="_blank">
             <button className="text-[16px] font-Exo font-normal tracking-[0.9px] rounded-sm relative px-4 h-12 bg-[#72E2AE] text-white  duration-500 overflow-hidden z-50 group">Download Resume<span className="absolute rounded-sm opacity-0 group-hover:opacity-100 duration-100 group-hover:duration-1000 ease-out flex justify-center inset-0 items-center z-10 text-white">Download Resume</span><span className="bg-sky-950 rounded-sm absolute inset-0 -translate-y-full group-hover:translate-y-0 group-hover:duration-1000"></span><span className="bg-sky-950 rounded-sm absolute inset-0 translate-y-full group-hover:translate-y-0 group-hover:duration-1000"></span><span className="bg-sky-950 rounded-sm absolute inset-0 translate-x-full group-hover:translate-x-0 group-hover:delay-300 delay-100 duration-1000"></span><span className="bg-sky-950 rounded-sm absolute inset-0 -translate-x-full group-hover:translate-x-0 group-hover:delay-300 delay-100 duration-1000"></span></button>
+            </a>
 
 
 

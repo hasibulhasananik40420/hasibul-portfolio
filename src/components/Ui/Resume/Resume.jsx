@@ -1,4 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
+import FadeIn, { FadeInStagger } from "@/components/Animation/FadeIn";
 import Container from "@/components/Shared/Container/Container";
 import React from "react";
 
@@ -6,14 +7,18 @@ const Resume = () => {
   return (
     <div className="bg-[#0F172A]" id="resumeSection">
       <Container>
+      <FadeIn>
         <p className="text-[16px] text-textDark font-Montserrat font-medium leading-8 uppercase">
           reseme
         </p>
         <h1 className="md:text-[46px] text-[24px] text-white mt-3 font-Exo font-bold md:leading-[56px] leading-10 tracking-[0.5px]">
           My Resume
         </h1>
+        </FadeIn>
 
+        <FadeInStagger>
         <div className="lg:flex gap-10 mt-10">
+        <FadeIn>
           <div className="lg:w-[600px] w-full bg-[#162033] border-[0.5px] border-[#2C304A] rounded-sm py-8 px-6">
             <h1 className=" text-[24px] text-white font-Montserrat font-semibold ">
               Working Experience
@@ -72,7 +77,8 @@ const Resume = () => {
 
 
           </div>
-
+          </FadeIn>
+          <FadeIn>
          <div className="lg:w-[600px] w-full bg-[#162033] border-[0.5px] border-[#2C304A] rounded-sm py-8 px-6 mt-10 md:mt-10 lg:mt-0">
             <h1 className=" text-[24px] text-white font-Montserrat font-semibold ">
             Educational Qualifications
@@ -131,13 +137,14 @@ const Resume = () => {
 
 
           </div>
-
+          </FadeIn>
 
 
 
 
 
         </div>
+        </FadeInStagger>
       </Container>
     </div>
   );

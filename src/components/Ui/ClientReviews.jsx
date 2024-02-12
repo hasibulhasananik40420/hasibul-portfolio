@@ -1,4 +1,3 @@
-import React from 'react'
 import Container from '../Shared/Container/Container'
 import ReviewSlider from '../ReviewSlider/ReviewSlider'
 // import effect from '@/assets/effect-3.svg'
