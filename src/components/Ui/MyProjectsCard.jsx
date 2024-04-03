@@ -1,10 +1,11 @@
+/* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 import project1 from "@/assets/project1.png";
 import project2 from "@/assets/project2.jpg";
 import project3 from "@/assets/project3.jpg";
-import project4 from "@/assets/project4.jpg";
+import project4 from "@/assets/project4.png";
 import project5 from "@/assets/project5.png";
-import project6 from "@/assets/project6.jpg";
+import project6 from "@/assets/project6.png";
 
 import { CiImageOn } from "react-icons/ci";
 import { BsBoxArrowInUpRight } from "react-icons/bs";
@@ -14,6 +15,7 @@ const MyProjectsCard = () => {
   return (
     <FadeInStagger>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        
         <FadeIn>
           <div className="card-container">
             <div className="bg-[#162033] bg-anik lg:w-[400px] w-full h-[400px] border-[0.5px] border-[#2C304A] rounded-sm relative">
@@ -108,7 +110,7 @@ const MyProjectsCard = () => {
                     <CiImageOn className="size-5" />
                   </span>
 
-                   <a href="https://chadxsmith.co/" target="_blank" >
+                   <a href="https://food-store-6eb9c.web.app/" target="_blank" >
                    <span className="bg-[#72E2AE] size-10 flex justify-center items-center rounded-full cursor-pointer">
                     <BsBoxArrowInUpRight className="size-5" />
                   </span>
@@ -118,10 +120,10 @@ const MyProjectsCard = () => {
 
               <div className="px-4">
                 <h1 className="md:text-[30px] text-[24px] text-white mt-3 font-Exo font-semibold tracking-[0.5px]">
-                  Chad smith
+                Ecommerce
                 </h1>
                 <p className="md:text-[18px] text-[16px] text-textDark font-Montserrat font-medium">
-                Senior UX Researcher
+                Buy product for you
                 </p>
               </div>
             </div>
@@ -146,7 +148,7 @@ const MyProjectsCard = () => {
                     <CiImageOn className="size-5" />
                   </span>
 
-                  <a href="https://food-store-6eb9c.web.app/" target="_blank" >
+                  <a href="https://chadxsmith.co/" target="_blank" >
                   <span className="bg-[#72E2AE] size-10 flex justify-center items-center rounded-full cursor-pointer">
                     <BsBoxArrowInUpRight className="size-5" />
                   </span>
@@ -156,10 +158,10 @@ const MyProjectsCard = () => {
 
               <div className="px-4">
                 <h1 className="md:text-[30px] text-[24px] text-white mt-3 font-Exo font-semibold tracking-[0.5px]">
-                 Ecommerce
+                Chad smith
                 </h1>
                 <p className="md:text-[18px] text-[16px] text-textDark font-Montserrat font-medium">
-                   Buy product for you
+                Senior UX Researcher
                 </p>
               </div>
             </div>
@@ -222,18 +224,20 @@ const MyProjectsCard = () => {
                     <CiImageOn className="size-5" />
                   </span>
 
-                  <span className="bg-[#72E2AE] size-10 flex justify-center items-center rounded-full cursor-pointer">
+                  <a href="https://chadstutoring.com/" target="_blank">
+                 <span className="bg-[#72E2AE] size-10 flex justify-center items-center rounded-full cursor-pointer">
                     <BsBoxArrowInUpRight className="size-5" />
                   </span>
+                 </a>
                 </div>
               </div>
 
               <div className="px-4">
                 <h1 className="md:text-[30px] text-[24px] text-white mt-3 font-Exo font-semibold tracking-[0.5px]">
-                 Bor bari
+                Chad's Tutoring
                 </h1>
                 <p className="md:text-[18px] text-[16px] text-textDark font-Montserrat font-medium">
-                  Marriage dastination 
+                Math, Reading & Writing Tutor
                 </p>
               </div>
             </div>

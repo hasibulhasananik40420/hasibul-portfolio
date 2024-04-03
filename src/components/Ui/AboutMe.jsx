@@ -142,6 +142,22 @@ const AboutMe = () => {
                   Next Auth
                 </span>
               </div>
+               <div className="flex items-center gap-2">
+                <span>
+                  <AiOutlineThunderbolt className="text-textGreen" size={20} />
+                </span>
+                <span className="text-[18px] font-medium text-textDark font-Montserrat">
+                  Shadcn Ui
+                </span>
+              </div>
+              <div className="flex items-center gap-2">
+                <span>
+                  <AiOutlineThunderbolt className="text-textGreen" size={20} />
+                </span>
+                <span className="text-[18px] font-medium text-textDark font-Montserrat">
+                  Ant Design
+                </span>
+              </div>
             </div>
           </div>
 
