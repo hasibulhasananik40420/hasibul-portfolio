@@ -2,7 +2,7 @@ import React from "react";
 import Container from "../Shared/Container/Container";
 import { AiOutlineThunderbolt } from "react-icons/ai";
 import Image from "next/image";
-import anik from '@/assets/Anik webiste.png'
+import anik from '@/assets/Anik 3.jpg'
 import FadeIn from "../Animation/FadeIn";
 const AboutMe = () => {
   return (
@@ -162,7 +162,7 @@ const AboutMe = () => {
           </div>
 
           <div className="lg:w-[1200px] w-full p-1 h-[450px] md:h-[700px] lg:h-[450px] border-[4px] border-[#2C304A] rounded-sm mt-14 md:mt-16 lg:mt-0">
-            <Image className="w-full h-full" src={anik} alt="anik" placeholder="blur"/>
+            <Image className="w-full h-full rounded-sm" src={anik} alt="anik" placeholder="blur"/>
           </div>
 
         </div>

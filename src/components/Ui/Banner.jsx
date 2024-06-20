@@ -2,7 +2,8 @@
 import Navbar from "../Shared/Navbar/Navbar";
 import Container from "../Shared/Container/Container";
 import Image from "next/image";
-import anik from "@/assets/Anik webiste.png";
+import anik from '@/assets/Anik 3.jpg'
+
 import Icons from "./Icons";
 import ScrollDown from "../ScrollDown/ScrollDown";
 import { motion } from 'framer-motion';
